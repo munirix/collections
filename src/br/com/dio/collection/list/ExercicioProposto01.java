@@ -9,7 +9,7 @@ import java.util.Scanner;
 Após isto, calcule a média semestral das temperaturas e mostre todas as temperaturas acima desta média,
 e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro e etc).
 */
-
+//
 public class ExercicioProposto01 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
