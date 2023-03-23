@@ -15,20 +15,20 @@ public class ExemploOrdenacaoSet {
     public static void main(String[] args) {
 
         System.out.println("--\tOrdem aleatória\t--");
-        Set<Serie> minhasSeries = new HashSet<>(){{
-            add(new Serie("got", "fantasia", 60));
-            add(new Serie("dark", "drama", 60));
-            add(new Serie("that '70s show", "comédia", 25));
-        }};
+        Set<Serie> minhasSeries = new HashSet<>();
+        minhasSeries.add(new Serie("got", "fantasia", 60));
+        minhasSeries.add(new Serie("dark", "drama", 60));
+        minhasSeries.add(new Serie("that '70s show", "comédia", 25));
+        
         for (Serie serie: minhasSeries) System.out.println(serie.getNome() + " - "
                 + serie.getGenero() + " - " + serie.getTempoEpisodio());
 
         System.out.println("--\tOrdem inserção\t--");
-        Set<Serie> minhasSeries1 = new LinkedHashSet<>() {{
-            add(new Serie("got", "fantasia", 60));
-            add(new Serie("dark", "drama", 60));
-            add(new Serie("that '70s show", "comédia", 25));
-        }};
+        Set<Serie> minhasSeries1 = new LinkedHashSet<>();
+        minhasSeries1.add(new Serie("got", "fantasia", 60));
+        minhasSeries1.add(new Serie("dark", "drama", 60));
+        minhasSeries1.add(new Serie("that '70s show", "comédia", 25));
+    
         for (Serie serie: minhasSeries1) System.out.println(serie.getNome() + " - "
                 + serie.getGenero() + " - " + serie.getTempoEpisodio());
 

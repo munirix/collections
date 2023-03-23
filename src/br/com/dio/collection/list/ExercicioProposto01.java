@@ -1,6 +1,7 @@
 package br.com.dio.collection.list;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -76,6 +77,7 @@ public class ExercicioProposto01 {
             }
             count++;
         }
+        scan.close();
     }
 }
 

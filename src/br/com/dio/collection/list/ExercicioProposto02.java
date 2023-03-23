@@ -59,5 +59,6 @@ public class ExercicioProposto02 {
             default:
                 System.out.println(">> INOCENTE <<"); break;
         }
+        scanner.close();
     }
 }

@@ -1,7 +1,9 @@
 package br.com.dio.collection.list;
 
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
 
 class ExemploList {
     public static void main(String[] args) {
